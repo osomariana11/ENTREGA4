@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99585723759",
+    "project_id": "entrega4-6b2b3",
+    "storage_bucket": "entrega4-6b2b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99585723759:android:53d791926726eab120ac9a",
+        "android_client_info": {
+          "package_name": "com.example.entrega4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3q-rG4M4UX8XPVLQjZYkEM_z5VoHp19Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

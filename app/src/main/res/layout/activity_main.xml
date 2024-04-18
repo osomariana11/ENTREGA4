@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar Datos del Estudiante"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        />
+
+
+    <EditText
+        android:id="@+id/edtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:hint="Ingresa Nombre"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edtcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtnombre"
+        android:hint="Ingresa Correo electronico"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edtcarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcorreo"
+        android:hint="Ingresa Formación Universitaria"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    
+    
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtcarrera"
+        android:backgroundTint="@color/colorb"
+        android:layout_marginTop="20dp"
+        android:text="Insertar Datos" />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsertar"
+        android:backgroundTint="@color/colorb"
+        android:layout_marginTop="20dp"
+        android:text="Mostrar Datos" />
+
+</RelativeLayout>
